@@ -1,0 +1,45 @@
+@import "colors.css";
+
+* {
+  font-family: 'JetBrainsMono Nerd Font Propo';
+  font-size: 14px;
+  color: @foreground;
+}
+
+window#waybar {
+  background: none;
+}
+
+#tray {
+  margin-left: 15px;
+}
+
+#mpris {
+  margin-left: 10px;
+  color: @primary;
+}
+
+#mpris.paused {
+  color: @secondary;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+#custom-arch {
+  margin-left: 15px;
+}
+
+#custom-notification {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+#network,
+#pulseaudio,
+#clock {
+  margin-left: 5px;
+  margin-right: 5px;
+}
