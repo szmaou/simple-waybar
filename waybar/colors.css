@@ -2,5 +2,6 @@
 @define-color background-alt #1d2024;
 @define-color foreground #e1e2e9;
 @define-color primary #a8c8ff;
+@define-color onPrimary #d5e3ff;
 @define-color secondary #bdc7dc;
 @define-color error #ffb4ab;

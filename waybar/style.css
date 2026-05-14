@@ -3,7 +3,7 @@
 * {
   font-family: 'JetBrainsMono Nerd Font Propo';
   font-size: 14px;
-  color: @foreground;
+  color: @onPrimary;
 }
 
 window#waybar {
